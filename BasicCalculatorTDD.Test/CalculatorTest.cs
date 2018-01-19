@@ -19,8 +19,8 @@ namespace BasicCalculatorTDD
         public void Calculate_AddsTwoNumbersWithNonSymbolOperation_Returns3()
         {
             var _calculator = new Calculator();
-            int nr1 = 1;
-            int nr2 = 2;
+            double nr1 = 1;
+            double nr2 = 2;
             double result = _calculator.Calculate("add", nr1, nr2);
             Assert.That(result, Is.EqualTo(3));
         }
