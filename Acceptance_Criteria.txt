@@ -1,0 +1,32 @@
+Simple Calculator using Test Driven Development exercise.
+
+Acceptance Criteria - Conditions that the software must satisfy
+- The calculator should be able to handle two numbers and one of the four
+  basic operations add(+), subtract(-), multiply(*) and divide(/).
+  Then be able to see the result of thouse two numbers and the operator.
+
+ * * * Example * * *
+ * input | output  * 
+ * 10	 | 13      *
+ * 3     |         *
+ * +     |         *
+ * * * * * * * * * *
+
+Algorithm - logical thought process of the application
+- First number = first user input
+  If first number is not numeric then print warning
+  Second number = second user input
+  If second number is not numeric then print warning
+  Operation = third user input 
+  	If operation is + or "add" then
+		Print first number + second number
+	If operation is - or "subtract" then
+		Print first number - second number
+	If operation is * or "multiply" then
+		Print frist number * second number
+	If operation is / or "divide" then
+		Print first number / second number
+	else
+		Print warning
+
+
