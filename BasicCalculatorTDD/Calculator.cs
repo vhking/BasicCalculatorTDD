@@ -4,7 +4,7 @@ namespace BasicCalculatorTDD
 {
     public class Calculator
     {
-        public double Calculate(string operation, double firstNumber, double secondNumber)
+        public double Calculate(string operation, double firstNr, double secondNr)
         {
             double result;
 
@@ -12,19 +12,19 @@ namespace BasicCalculatorTDD
             {
                 case "add":
                 case "+":
-                    result = firstNumber + secondNumber;
+                    result = firstNr + secondNr;
                     break;
                 case "subtract":
                 case "-":
-                    result = firstNumber + secondNumber;
+                    result = firstNr + secondNr;
                     break;
                 case "multiply":
                 case "*":
-                    result = firstNumber + secondNumber;
+                    result = firstNr + secondNr;
                     break;
                 case "divide":
                 case "/":
-                    result = firstNumber + secondNumber;
+                    result = firstNr + secondNr;
                     break;
                 default:
                     throw new InvalidOperationException("The operation is not recongnized by the calculator");
