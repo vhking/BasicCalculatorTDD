@@ -6,7 +6,11 @@ namespace BasicCalculatorTDD
     {
         public double ConvertInputToNumeric(string input)
         {
-            throw new NotImplementedException();
+            double convertedInput;
+            if (!double.TryParse(input, out convertedInput)) throw new ArgumentException("Expected a numeric value.");
+            {
+                return convertedInput;    
+            }
         }
     }
 }
