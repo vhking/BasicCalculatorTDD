@@ -16,15 +16,15 @@ namespace BasicCalculatorTDD
                     break;
                 case "subtract":
                 case "-":
-                    result = firstNr + secondNr;
+                    result = firstNr - secondNr;
                     break;
                 case "multiply":
                 case "*":
-                    result = firstNr + secondNr;
+                    result = firstNr * secondNr;
                     break;
                 case "divide":
                 case "/":
-                    result = firstNr + secondNr;
+                    result = firstNr / secondNr;
                     break;
                 default:
                     throw new InvalidOperationException("The operation is not recongnized by the calculator");
